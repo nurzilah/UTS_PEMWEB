@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PENDIDIKAN</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 20px;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    /* Table Styling */
+    table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        /* Table Size */
+        table {
+            width: 50%;
+        }
+
+        /* Padding Spacing */
+        td, th {
+            padding: 10px;
+            text-align: left;
+        }
+  </style>
+  </head>
+  <body>
+    <header>
+      <h1>Pendidikan</h1>
+  </header>
+  <main>
+      <section>
+          <h2>Apa itu Pendidikan?</h2>
+          <p>Pendidikan adalah usaha dasar terencana untuk mewujudkan suasana belajar dan proses pembelajaran agar peserta didik secara aktif mengembangkan potensi dirinya untuk memiliki kekuatan spiritual keagamaan, pengendalian diri, kepribadian, kecerdasan, akhlak, ilmu hidup, pengetahuan umum serta keterampilan yang diperlukan dirinya untuk masyarakat berlandaskan Undang-Undang.</p>
+      </section>
+      <section>
+        <h2>Bagaimana sistem pendidikan Indonesia?</h2>
+            <p>Indonesia memiliki sistem nasional pendidikan tersendiri yang menerapkan wajib belajar 12 tahun. Yaitu sembilan tahun pendidikan dasar yang meliputi enam tahun di sekolah dasar serta masing-masing tiga tahun di SMP dan SMA.</p>
+        </section>
+        <section>
+            <h2>Sumber Daya Pendidikan</h2>
+            <p>Untuk informasi lebih lanjut tentang pendidikan, kunjungi <a href="https://www.kemdikbud.go.id/">Kementerian Pendidikan dan Kebudayaan Indonesia</a>.</p>
+        </section>
+        <section>
+          <h2>Gambar Pendidikan Sekolah Dasar(SD)</h2>
+          <p>Seragam SD menggunakan warna Merah Putih yang mengartikan Energi dan Semangat Tinggi.</p>
+          <img src="https://www.fakta.id/media/uploads/7/36d239d4b6cbd09261bbd0e12f5dac2a.jpg" alt="Ilustrasi Pendidikan">
+      </section>
+      <h1>Data Sekolah Dasar</h1>
+    
+      <!-- Tabel -->
+      <table>
+          <tr>
+              <th>No</th>
+              <th>Nama Sekolah</th>
+              <th>Lokasi</th>
+              <th>Alamat</th>
+          </tr>
+          <tr>
+              <td>1</td>
+              <td rowspan="2">SD Negeri 1</td>
+              <td>Jakarta</td>
+              <td>Jl. Merdeka No. 123</td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>Bandung</td>
+              <td>Jl. Pahlawan No. 45</td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <td colspan="3">SD Negeri 2</td>
+          </tr>
+          <tr>
+              <td>4</td>
+              <td>Surabaya</td>
+              <td>Jl. Sudirman No. 67</td>
+              <td>Jl. Pahlawan No. 12</td>
+          </tr>
+      </table>
+  
+        
+      <h1>Formulir Pendaftaran Sekolah Dasar</h1>
+      <form action="proses_pendaftaran.php" method="POST">
+          <!-- Label dan input untuk nama -->
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" id="nama" name="nama" required>
+          <br>
+  
+          <!-- Label dan input untuk usia -->
+          <label for="usia">Usia:</label>
+          <input type="number" id="usia" name="usia" min="6" max="12" required>
+          <br>
+  
+          <!-- Label dan input untuk alamat -->
+          <label for="alamat">Alamat:</label>
+          <input type="text" id="alamat" name="alamat" required>
+          <br>
+  
+          <!-- Label dan select untuk jenis kelamin -->
+          <label for="jenis_kelamin">Jenis Kelamin:</label>
+          <select id="jenis_kelamin" name="jenis_kelamin">
+              <option value="laki-laki">Laki-laki</option>
+              <option value="perempuan">Perempuan</option>
+          </select>
+          <br>
+  
+          <!-- Label dan textarea untuk catatan -->
+          <label for="catatan">Catatan Tambahan:</label>
+          <textarea id="catatan" name="catatan" rows="4" cols="50"></textarea>
+          <br>
+  
+          <!-- Tombol submit -->
+          <input type="submit" value="Daftar">
+      </form>
+    </section>
+  </main>
+  </body>
+</html>

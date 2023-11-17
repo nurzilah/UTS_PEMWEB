@@ -1,0 +1,193 @@
+<!-- Deklarasi dokumen HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Pengaturan karakter set dan tampilan responsif -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Penghubungan dengan file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Judul halaman -->
+    <title>Portofolio Saya</title>
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <ul>
+            <!-- Menu Home -->
+            <li><a href="#Home">Home</a></li>
+            <!-- Menu Tentang Diri -->
+            <li><a href="#data-diri">Hero Section</a></li>
+            <!-- Menu Pengalaman -->
+            <li><a href="#tentang-diri">About Me</a></li>
+            <!-- Menu Work Samples -->
+            <li><a href="#resume">Pengalaman</a></li>
+            <!-- Menu Contoh Pekerjaan -->
+            <li><a href="#work-samples">Contoh Pekerjaan</a></li>
+            <!-- Menu Seminar -->
+            <li><a href="#resume-seminar">Seminar</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bagian Header -->
+    <header>
+        <!-- Gambar Profil -->
+        <img src="foto.jpeg" alt="Foto Profil" id="profileImage" onclick="scaleImage()" ondblclick="scalex()">
+    </header>
+    <!-- Bagian Tentang Diri -->
+    <section id="Home">
+      <!-- Judul -->
+      <h2>Data Diri</h2>
+      <!-- Informasi Nama dan Pekerjaan -->
+      <h1>
+          Hi, im Nurzilah Hidayati <br />
+          Frontend Development
+      </h1>
+      
+
+  <!-- Bagian Tentang Diri Saya -->
+  <section id="tentang-diri">
+      <!-- Judul -->
+      <h2>Tentang Diri Saya</h2>
+      <!-- Paragraf berisi deskripsi diri -->
+      <p><!-- (Isi dengan deskripsi diri Anda) -->
+        Saya Nurzilah Hidayati, Mahasiswi Teknik Informatika, Politeknik Harapan Bersama Tegal. Saat ini saya Semester 3, Saya lebih menyukai desain seperti figma. 
+        Goal saya setelah 4 Tahun kuliah yaitu bekerja sebagai UI/UX designer di perusahaan besar indonesia.   
+      </p>
+  </section>
+
+  <section id="Sertifikasi">
+    <h2>Sertifikat Huawei</h2>
+    <ul>
+      <li>
+        <img src="Sertifikat huawei Python Programming Basics (1).png" style="width:500px;height:500px;">
+      </li>
+    </ul>
+  </section>
+
+  <!-- Bagian Resume Pengalaman -->
+  <section id="resume">
+      <!-- Judul -->
+      <h2>Resume Kegiatan Organisasi</h2>
+      <!-- Daftar pekerjaan dan pengalaman -->
+      <ul>
+          <li>
+              <h3>Panitia PKKMB Poltek Harber 2023 - Divisi Sponsor</h3>
+                  <img src="pkkmb sponsor.jpeg" alt="Divisi Sponsor" style="width:500px;height:300px;">
+          </li>
+          <li>
+              <h3>Panitia Fun Camp Teknik Informatika 2023 - Divisi Acara</h3>
+              <p><!-- (Isi dengan informasi pekerjaan dan pengalaman Anda) --> 
+                <div class="work-sample">
+                  <img src="funcamp.jpeg" alt="Divisi Acara" style="width:600px;height:300px;">
+              </div>
+              </p>
+          </li>
+          <li>
+            <h3>Panitia Invofest 2023 - Divisi Kreatif dan Dokumentasi</h3>
+            <div class="work-sample">
+              <img src="invofest.jpeg" alt="Divisi Kreatif dan Dokumentasi" style="width:600px;height:300px;">
+            </div>
+          </li>
+      </ul>
+  </section>
+
+   <!-- Bagian Contoh Pekerjaan -->
+   <section id="work-samples">
+    <!-- Judul -->
+    <h2>Contoh Pekerjaan</h2>
+
+    <!-- Contoh Pekerjaan 1 -->
+    <div class="work-sample">
+      <h2>contoh 1</h2>
+      <a href="https://www.sinaranupdate.com/umum/5499101820/pemilu-2024-sistem-pemerintahan-ada-ditangan-generasi-millenial-dan-gen-z">Link Artikel</a>
+        <img src="sample1.jpeg" alt="Contoh Pekerjaan 1" style="width:500px;height:400px;">
+          
+        <p>
+            Saya membuat artikel sebagai tugas mata kuliah kewarganegaraan.
+        </p>
+    </div>
+
+     <!-- Contoh Pekerjaan 2 -->
+     <div class="work-sample">
+      <h2>contoh 2</h2>
+      <a href="https://wealthy-society-fba.notion.site/UI-UX-WRITING-Spotify-b918aba2d05548f08819da64c3543b96">UI/UX Spotify</a>
+      <p>
+          Saya membuat UI/UX Spotify, sebagai tugas UAS semester 2. 
+      </p>
+  </div>
+   </section>
+
+   <!-- Bagian Resume Seminar -->
+   <section id="resume-seminar">
+    <!-- Judul -->
+    <h1>Resume Hasil Seminar</h1>
+    <!-- Informasi Seminar -->
+    <h2>SEMINAR NASIONAL & AWARDING NATIONAL IT COMPETITION INVOFEST 2023</h2>
+    <!-- Detail Seminar -->
+    <ul>
+        <li>
+            <!-- Tanggal Seminar -->
+            <h3>Rabu, 25 Oktober 2023</h3>
+            <!-- Deskripsi Seminar -->
+            <p>
+              Sejak tahun 2017, Imatama telah bermitra dengan Delteknologi dan telah berhasil mengembangkan tiga solusi utama. Solusi pertama adalah "Modern ID in Transaction" yang dirancang untuk bekerjasama dengan lembaga lain. 
+              Yang kedua adalah "Modern Application Development," yang melibatkan kolaborasi dalam berbagai bahasa pemrograman. Dan yang ketiga adalah "Arti Security," yang difokuskan pada layanan keamanan, terutama untuk klien di sektor keuangan. 
+              Imatama juga menyediakan peluang pekerjaan bagi individu yang ingin mengaplikasikan pengetahuan mereka yang didapatkan selama berkuliah, menggarisbawahi pentingnya memiliki portofolio yang kuat. Mereka menekankan nilai kesabaran dan konsistensi sambil terus memperkuat kemampuan teknis dan komunikasi. 
+              Selain itu, pembicara memberikan contoh konsep Minimum Viable Product (MVP) dalam menyelesaikan masalah, seperti menciptakan aplikasi untuk membantu individu yang merasa stres dengan menyediakan layanan konsultasi.
+            </p>
+            <!-- Materi dari Mas Indra -->
+            <p>
+              Materi yang disampaikan oleh Mas Indra membicarakan perubahan dalam tren belanja sebagai akibat munculnya platform seperti Tokopedia dan Shopee. Selain itu, dia juga memperkenalkan Expo sebagai solusi untuk mempercepat proses ekspor dalam sektor maritim. 
+              Dalam presentasinya, Mas Indra mencakup isu-isu keamanan data, peningkatan penggunaan layanan Cloud, dan pentingnya mendapatkan sertifikasi. Dia memberikan gambaran tentang konsep Open Shift, memberikan penekanan pada pengembangan mobile banking, dan mencatat pertumbuhan penggunaan teknologi Open Source dalam industri. 
+              Mas Indra juga mengusulkan fokus dalam mempelajari Open Source sebagai cara untuk meningkatkan peluang karir. Terakhir, dia berbagi informasi tentang Landscape, produk, dan solusi yang ditawarkan oleh Pratama.
+            </p>
+            <!-- Pembicara Pak Novi -->
+            <p>
+              Pembicara, Pak Novi, merupakan CEO dan pendiri Komerce, sebuah startup yang berbasis di desa atau daerah terpencil. Komerce adalah sebuah aplikasi yang digunakan untuk memberikan konsultasi teknologi. Awalnya, Pak Novi adalah seorang Pegawai Negeri Sipil (PNS), 
+              namun dia menyadari bahwa pendapatannya jauh lebih rendah dibandingkan dengan mereka yang bekerja di bidang teknologi. 
+              Maka dari itu, dia memutuskan untuk mendirikan aplikasi Komerce dan menjabat sebagai CEO serta pendiri perusahaan tersebut. Dalam presentasinya, Pak Novi berbagi pengalaman tentang bagaimana kita bisa mengelola teknologi dengan efisien. 
+              Dia juga mengajarkan langkah-langkah untuk mendirikan startup seperti yang dia lakukan, dengan tujuan agar dapat mencapai kesuksesan. Motivasi utama Pak Novi adalah untuk memajukan Usaha Mikro, Kecil, dan Menengah (UMKM).
+              </p>
+        </li>
+    </ul>
+</section>
+
+  <section id="data-diri">
+    <h2>Kontak Saya</h2>
+    
+    <ul>
+        <li>Alamat Email: jilaaa.scorpio@gmail.com</li>
+        <li>No. Telepon: 0857-1279-9296</li>
+        <li>LinkedIn: <a href="https://id.linkedin.com/in/nurzilah-hidayati-78175a244">LinkedIn Profile</a></li>
+        <li>GitHub: <a href="https://github.com/nurzilah">GitHub Profile</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/n.rzilaaa/?next=%2Fravalsaa%2F">Instagram</a></li>
+    </ul>
+</section>
+    
+    <footer>
+        <p>&copy; 2023 Nurzilah Hidayati</p>
+    </footer>
+    <!-- Script untuk Mengubah Skala Gambar -->
+    <script>
+      // Fungsi untuk Memperbesar Gambar
+      function scaleImage() {
+          var image = document.getElementById('profileImage');
+          var currentScale = getComputedStyle(image).transform.split(',')[3];
+          var newScale = (currentScale === undefined) ? 1.5 : parseFloat(currentScale) * 1.5;
+          image.style.transform = 'scale(' + newScale + ')';
+      }
+
+      // Fungsi untuk Mengembalikan Skala Gambar ke Ukuran Awal
+      function scalex() {
+          var image = document.getElementById('profileImage');
+          var currentScale = getComputedStyle(image).transform.split(',')[3];
+          var newScale = (currentScale === undefined) ? 1 : 1;
+          image.style.transform = 'scale(' + newScale + ')';
+      }
+  </script>
+  
+  </body>
+  </html>
