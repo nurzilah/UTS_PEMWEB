@@ -1,0 +1,14 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Open Pendidikan.html",
+      "file": "d:\\File Nurzilah Hidayati\\Pemrograman web 1\\Tugas Pertemuan 1\\Pendidikan.html"
+    }
+  ]
+}
